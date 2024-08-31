@@ -1,0 +1,92 @@
+/* src/styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+.theme-toggle {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px;
+    transition: background-color 0.3s;
+}
+
+.theme-toggle:hover {
+    background-color: #0056b3;
+}
+
+/* Light mode styles */
+.App {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.news-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-item h2 {
+    margin: 0 0 10px;
+    color: #007bff;
+}
+
+.news-item p {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.news-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.dark-mode .news-item {
+    border: 1px solid #555;
+    background-color: #444;
+}
+
+.dark-mode .news-item h2 {
+    color: #66f;
+}
+
+.dark-mode .news-item p {
+    color: #ddd;
+}
+
+.dark-mode .news-item a {
+    color: #66f;
+}
+
+.dark-mode .news-item a:hover {
+    text-decoration: underline;
+}
